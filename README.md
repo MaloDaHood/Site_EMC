@@ -1,2 +1,2 @@
 # Site_EMC
-#URL = journal-emc.ddns.net
+# URL = <a href="http://journal-emc.ddns.net">journal-emc.ddns.net</a>
