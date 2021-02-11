@@ -153,9 +153,17 @@
 
 .liens {
     position: absolute;
-    font-size: 25px;
+    font-size: 30px;
     left: 10em;
-    top: 15em;
+    top: 12.5em;
+}
+
+.liens a:link {
+    color: black;
+}
+
+.liens a:visited {
+    color: black;
 }
 
 .liens a:hover {
