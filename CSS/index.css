@@ -201,14 +201,6 @@
     letter-spacing: 1px;
 }
 
-.profpic {
-    width: 50px;
-    z-index: 1000;
-    position: absolute;
-    top: 10%;
-    left: 5%;
-}
-
 .about .imgBx {
     background: url(../Images/placeholder.jpg);
     width: 50%;
