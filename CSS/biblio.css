@@ -17,7 +17,7 @@
 .banner {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background: #3475ca;
     display: flex;
     justify-content: center;
@@ -150,22 +150,20 @@
     transform: scaleX(1);
 }
 
-.liens {
-    position: absolute;
+.banner .liens {
     font-size: 30px;
-    left: 10em;
-    top: 12.5em;
+    padding: 50px;
 }
 
-.liens a:link {
+.banner .liens a:link {
     color: black;
 }
 
-.liens a:visited {
+.banner .liens a:visited {
     color: black;
 }
 
-.liens a:hover {
+.banner .liens a:hover {
     color: red;
 }
 
@@ -175,6 +173,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10vh;
 }
 
 .footer a {
@@ -186,4 +185,37 @@
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .banner .titre {
+        font-size: 20px;
+        top: 100%;
+    }
+
+    .banner header .logo {
+        font-size: 18px;
+    }
+
+    .banner header {
+        padding: 25px 10px;
+    }
+
+    .menu ul li a {
+        font-size: 32.5px;
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer p {
+        max-width: 75%;
+    }
+
+    .banner .liens {
+        font-size: 20px;
+        padding: 30px;
+    }
 }
