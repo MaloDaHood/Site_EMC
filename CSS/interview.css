@@ -255,4 +255,10 @@
     .footer p {
         max-width: 75%;
     }
+
+    .banner .titre {
+        font-size: 20px;
+        top: 100%;
+    }
+    
 }
