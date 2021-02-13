@@ -1,1 +1,0 @@
-alert("Veillez à utiliser ce site avec un ordinateur ou un grand écran.\nÉvitez les tablettes du lycée svp.");
