@@ -154,6 +154,7 @@
     position: relative;
     width: 100%;
     display: flex;
+    background-color: #3475ca;
 }
 
 .about .contentBx {
@@ -179,7 +180,14 @@
 
 .about .imgBx {
     width: 50%;
-    background-color: #3475ca;
+}
+
+.about .imgBx1 {
+    width: 50%;
+}
+
+.about .imgBx2 {
+    display: none;
 }
 
 .about .imgBx video {
@@ -197,4 +205,54 @@
 
 .footer a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .about {
+        display: block;
+    }
+
+    .about .contentBx {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .about .imgBx {
+        width: 100%;
+    }
+
+    .about .imgBx1 {
+        display: none;
+    }
+
+    .about .imgBx2 {
+        display: contents;
+        width: 100%;
+    }
+
+    .about .contentBx {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner header .logo {
+        font-size: 18px;
+    }
+
+    .banner header {
+        padding: 25px 10px;
+    }
+
+    .menu ul li a {
+        font-size: 32.5px;
+    }
+
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer p {
+        max-width: 75%;
+    }
 }
