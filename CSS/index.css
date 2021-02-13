@@ -360,9 +360,12 @@
         font-size: 40px;
     }
 
+    .banner header {
+        padding: 25px 10px;
+    }
+
     .banner header .logo {
         font-size: 18px;
-        position: absolute;
     }
 
     .about {
