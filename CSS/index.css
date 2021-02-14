@@ -129,7 +129,7 @@
 
 .menu.active {
     visibility: visible;
-    transition-delay: 0.2s;
+    /*transition-delay: 0.2s;*/
 }
 
 .menu ul {
