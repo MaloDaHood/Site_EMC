@@ -100,11 +100,11 @@
     height: 100%;
     overflow: auto;
     z-index: 1;
-    visibility: hidden;
+    display: none;
 }
 
 .menu.active {
-    visibility: visible;
+    display: contents;
     transition-delay: 0.2s;
 }
 
