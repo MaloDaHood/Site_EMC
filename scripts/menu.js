@@ -3,6 +3,5 @@ $(document).ready(function(){
         $('.toggle').toggleClass('active')
         $('.overlay').toggleClass('active')
         $('.menu').toggleClass('active')
-        alert("OK");
     })
 })
