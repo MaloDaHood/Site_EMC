@@ -124,14 +124,12 @@
     height: 100%;
     overflow: auto;
     z-index: 1;
-    /*visibility: hidden;*/
-    opacity: 0;
+    visibility: hidden;
 }
 
 .menu.active {
-    /*visibility: visible;*/
+    visibility: visible;
     transition-delay: 0.2s;
-    opacity: 1;
 }
 
 .menu ul {
