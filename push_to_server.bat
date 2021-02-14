@@ -4,7 +4,6 @@ git add *
 set /p input=Texte du commit ?
 git commit -m "%input%"
 git push
-pause
 echo Push vers le serveur web :
 git push site_EMC main
 pause
