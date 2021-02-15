@@ -34,18 +34,18 @@
     opacity: 0.25;
 }
 
-.banner .content {
+.banner .problematique {
     position: relative;
     max-width: 925px;
     text-align: center;
 }
 
-.banner .content h2 {
+.banner .problematique h2 {
     color: #fff;
     font-size: 60px;
 }
 
-.banner .content p {
+.banner .problematique p {
     color: #fff;
     font-size: 18px;
 }
@@ -62,7 +62,7 @@
     z-index: 10000;
 }
 
-.banner header .logo {
+.banner header .nom {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
@@ -193,20 +193,20 @@
     transform: scaleX(1);
 }
 
-.about {
+.text_media {
     position: relative;
     width: 100%;
     display: flex;
     background-color: #162c3b;
 }
 
-.about .contentBx {
+.text_media .textBx {
     background: #162c3b;
     padding: 100px;
     width: 50%;
 }
 
-.heading {
+.titre_textBx {
     color: #fff;
     font-size: 30px;
     font-weight: 600;
@@ -221,7 +221,7 @@
     letter-spacing: 1px;
 }
 
-.about .imgBx {
+.text_media .imgBx {
     width: 50%;
     background-color: #162c3b;
     display: flex;
@@ -229,17 +229,17 @@
     padding: 0 10px;
 }
 
-.about .imgBx img {
+.text_media .imgBx img {
     width: 100%;
 }
 
-.services {
+.cartes {
     background: #12222d;
     padding: 100px;
     text-align: center;
 }
 
-.services .container {
+.cartes .container {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -248,7 +248,7 @@
     margin-top: 60px;
 }
 
-.services .container .serviceBx {
+.cartes .container .cartesBx {
     position: relative;
     background: #fff;
     width: 350px;
@@ -259,22 +259,22 @@
     margin: 10px 30px;
 }
 
-.services .container .serviceBx img {
+.cartes .container .cartesBx img {
     max-width: 100px;
 }
 
-.services .container .serviceBx h2 {
+.cartes .container .cartesBx h2 {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
-.services .container .serviceBx a {
+.cartes .container .cartesBx a {
     text-decoration: none;
     color: #000;
 }
 
-.technology {
+.text_media_second {
     background: #3f8ffc;
     width: 100%;
     padding: 100px;
@@ -285,25 +285,25 @@
     align-items: center;
 }
 
-.technology .contentBx {
+.text_media_second .textBx {
     max-width: 800px;
 }
 
-.technology .imgBx {
+.text_media_second .imgBx {
     max-width: 325px;
 }
 
-.technology .imgBx img {
+.text_media_second .imgBx img {
     max-width: 100%;
 }
 
-.client {
+.assos {
     background: #162c3b;
     padding: 100px;
     text-align: center;
 }
 
-.client .imgBx {
+.assos .imgBx {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,25 +311,25 @@
     margin-top: 40px;
 }
 
-.client .imgBx img {
+.assos .imgBx img {
     max-width: 200px;
     margin: 40px;
     opacity: 0.25;
     cursor: pointer;
 }
 
-.client .imgBx img:hover {
+.assos .imgBx img:hover {
     opacity: 1;
 }
 
-.testimonials {
+.temoignages {
     position: relative;
     padding: 100px;
     background: #12222d;
     text-align: center;
 }
 
-.testimonials .container {
+.temoignages .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -337,7 +337,7 @@
     flex-wrap: wrap;
 }
 
-.testimonials .container .contentBx {
+.temoignages .container .textBx {
     background: #fff;
     padding: 60px 50px;
     margin: 40px;
@@ -348,11 +348,11 @@
     text-align: left;
 }
 
-.testimonials .container .contentBx p {
+.temoignages .container .textBx p {
     font-style: italic;
 }
 
-.testimonials .container .contentBx h3 {
+.temoignages .container .textBx h3 {
     width: 100%;
     text-align: end;
     font-weight: 500;
@@ -429,7 +429,7 @@
         top: 100%;
     }
 
-    .banner .content h2 {
+    .banner .problematique h2 {
         font-size: 40px;
     }
 
@@ -437,29 +437,29 @@
         padding: 25px 10px;
     }
 
-    .banner header .logo {
+    .banner header .nom {
         font-size: 18px;
     }
 
-    .about {
+    .text_media {
         display: block;
     }
 
-    .about .contentBx {
+    .text_media .textBx {
         padding: 10px;
         width: 100%;
         text-align: center;
     }
 
-    .about .imgBx {
+    .text_media .imgBx {
         width: 100%;
     }
 
-    .services {
+    .cartes {
         padding: 50px;
     }
 
-    .technology {
+    .text_media_second {
         padding: 10px;
         margin-top: -300px;
         padding-top: 300px;
@@ -467,17 +467,17 @@
         justify-content: center;
     }
 
-    .technology .contentBx {
+    .text_media_second .textBx {
         max-width: 100%;
         padding-bottom: 10px;
         text-align: center;
     }
     
-    .technology .imgBx {
+    .text_media_second .imgBx {
         max-width: 100%;
     }
 
-    .testimonials {
+    .temoignages {
         padding: 10px;
     }
 

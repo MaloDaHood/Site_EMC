@@ -1,14 +1,14 @@
-.about .contentBx {
+.text_media .textBx {
     width: 100%;
 }
 
-.services {
+.cartes {
     background: #3475ca;
     padding: 100px;
     text-align: center;
 }
 
-.services .container {
+.cartes .container {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@
     margin-top: 60px;
 }
 
-.services .container .serviceBx {
+.cartes .container .cartesBx {
     position: relative;
     background: #3475ca;
     width: 350px;
@@ -27,17 +27,17 @@
     align-items: center;
 }
 
-.services .container .serviceBx img {
+.cartes .container .cartesBx img {
     max-width: 100px;
 }
 
-.services .container .serviceBx h2 {
+.cartes .container .cartesBx h2 {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
-.services .container .serviceBx a {
+.cartes .container .cartesBx a {
     text-decoration: none;
     color: #000;
 }
