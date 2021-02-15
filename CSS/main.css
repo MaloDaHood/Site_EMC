@@ -7,6 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* !MAIN! */
+
 .banner {
     position: relative;
     width: 100%;
@@ -418,6 +420,92 @@
     text-decoration: none;
 }
 
+/* !INTERVIEW.HTML! */
+.interview .banner {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background: #3475ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interview .text_media .imgBx {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.interview .text_media .imgBx1 {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.interview .text_media .imgBx2 {
+    display: none;
+}
+
+.interview .text_media .imgBx video {
+    width: 450;
+    height: 250;
+}
+
+/* !BIBLIO.HTML! */
+.biblio .banner {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: #3475ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* !CONTACT.HTML! */
+.contact .text_media .textBx {
+    width: 100%;
+}
+
+.contact .cartes {
+    background: #3475ca;
+    padding: 100px;
+    text-align: center;
+}
+
+.contact .cartes .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.contact .cartes .container .cartesBx {
+    position: relative;
+    background: #3475ca;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .cartes .container .cartesBx img {
+    max-width: 100px;
+}
+
+.contact .cartes .container .cartesBx h2 {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.contact .cartes .container .cartesBx a {
+    text-decoration: none;
+    color: #000;
+}
+
 @media only screen and (max-width: 1200px) {
     
     .menu ul li a {
@@ -492,5 +580,25 @@
     .banner .liens {
         font-size: 20px;
         padding: 30px;
+    }
+
+    /* !INTERVIEW.HTML! */
+
+    .interview .text_media .imgBx1 {
+        display: none;
+    }
+
+    .interview .text_media .imgBx2 {
+        display: contents;
+        width: 100%;
+
+    }
+
+    .interview .text_media .imgBx2 video {
+        padding: 10px 10px;
+    }
+
+    .interview .text_media .imgBx {
+        width: 100%;
     }
 }
