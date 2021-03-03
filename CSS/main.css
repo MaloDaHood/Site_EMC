@@ -361,6 +361,49 @@
     color: #3f8ffc;
 }
 
+.insta {
+    background-color: #3475ca;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.insta .perso {
+    padding: 80px;
+    text-align: center;
+}
+
+.insta .perso a {
+    text-decoration: none;
+    color: black;
+}
+
+.insta .perso a:hover {
+    font-size: large;
+    color: white;
+}
+
+.insta .perso img {
+    width: 100px;
+}
+
+.insta .perso img:hover {
+    width: 110px;
+}
+
+.formulaire {
+    height: fit-content;
+    width: 100%;
+    background-color: #162c3b;
+}
+
+.form {
+    padding: 50px;
+}
+
 .form .inputBx {
     margin-bottom: 40px;
 }
@@ -462,48 +505,9 @@
 }
 
 /* !CONTACT.HTML! */
-.contact .text_media .textBx {
-    width: 100%;
-}
 
-.contact .cartes {
-    background: #3475ca;
-    padding: 100px;
-    text-align: center;
-}
-
-.contact .cartes .container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 60px;
-}
-
-.contact .cartes .container .cartesBx {
-    position: relative;
-    background: #3475ca;
-    width: 350px;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact .cartes .container .cartesBx img {
-    max-width: 100px;
-}
-
-.contact .cartes .container .cartesBx h2 {
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
-.contact .cartes .container .cartesBx a {
-    text-decoration: none;
-    color: #000;
+.contact .banner {
+    height: 25vh;
 }
 
 @media only screen and (max-width: 1200px) {
