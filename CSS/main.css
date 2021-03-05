@@ -228,7 +228,7 @@
     background-color: #162c3b;
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 .text_media .imgBx img {
@@ -262,13 +262,7 @@
 }
 
 .cartes .container .cartesBx img {
-    max-width: 100px;
-}
-
-.cartes .container .cartesBx h2 {
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    width: 250px;
 }
 
 .cartes .container .cartesBx a {
@@ -292,7 +286,7 @@
 }
 
 .text_media_second .imgBx {
-    max-width: 325px;
+    max-width: 500px;
 }
 
 .text_media_second .imgBx img {
