@@ -200,12 +200,15 @@
     width: 100%;
     display: flex;
     background-color: #162c3b;
+    justify-content: center;
+    align-items: center;
 }
 
 .text_media .textBx {
     background: #162c3b;
     padding: 100px;
     width: 50%;
+    text-align: center;
 }
 
 .titre_textBx {
@@ -214,6 +217,7 @@
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .text {
@@ -323,6 +327,10 @@
     padding: 100px;
     background: #12222d;
     text-align: center;
+}
+
+.temoignages .intro {
+    color: #fff;
 }
 
 .temoignages .container {
