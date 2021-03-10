@@ -453,9 +453,83 @@
     font-weight: 400p;
 }
 
+.statis {
+    position: relative;
+    /*height: 80vh;*/
+    width: 100%;
+    display: flex;
+    background-color: #162c3b;
+    justify-content: center;
+    align-items: center;
+}
+
+.statis .liste {
+    background: #162c3b;
+    padding: 100px;
+    width: 50%;
+    /*max-height: 80vh;*/
+    text-align: center;
+}
+
+.statis .liste .titre_liste {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.statis .liste .text_liste {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.statis .tab {
+    display: block;
+}
+
+.statis .tab .statis_img{
+    background-color: #162c3b;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.statis .tab .statis_img img {
+    width: 100%;
+}
+
+.inter {
+    position: relative;
+    max-height: 90vh;
+    width: 100%;
+    display: block;
+    background-color: #12222d;
+    text-align: center;
+    padding: 20px;
+}
+
+.inter h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.inter img {
+    width: 60%;
+}
+
 .footer {
     background: #162c3b;
     padding: 20px 100px;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -466,6 +540,7 @@
 }
 
 /* !INTERVIEW.HTML! */
+
 .interview .banner {
     position: relative;
     width: 100%;
@@ -496,6 +571,7 @@
 }
 
 /* !BIBLIO.HTML! */
+
 .biblio .banner {
     position: relative;
     width: 100%;
@@ -510,6 +586,12 @@
 
 .contact .banner {
     height: 25vh;
+}
+
+/* !CHIFFRES.HTML! */
+
+.chiffres .banner {
+    height: 20vh;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -559,6 +641,7 @@
         padding-top: 300px;
         display: block;
         justify-content: center;
+        text-align: center;
     }
 
     .text_media_second .textBx {
@@ -573,6 +656,29 @@
 
     .temoignages {
         padding: 10px;
+    }
+
+    .statis {
+        display: block;
+    }
+
+    .statis .liste {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .statis .liste .text_liste {
+        text-align: center;
+    }
+
+    .statis .tab .statis_img {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .inter {
+        display: block;
     }
 
     .footer {
